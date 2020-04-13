@@ -61,7 +61,7 @@ rest.cors.enabled=true
 ```
 Your web browser will be promoted to access the URL `http://localhost:3000`. If it did not get promoted, try to manually access this URL in your web browser.
 > Goole Chrome and Mozilla Firefox are recommended. Microsoft Internet Explorer does not has the full support for HTML5 features demonstrated in this app.
-
+> If you still cannot access 'http://localhost:3000' and see the error 'ReferenceError: primordials is not defined', please review this fix which creates npm-shrinkwrap.json file of your version of gulp: https://timonweb.com/posts/how-to-fix-referenceerror-primordials-is-not-defined-error/
 
 ## 3. Demo
 <img src="demo/filemanager.gif">
